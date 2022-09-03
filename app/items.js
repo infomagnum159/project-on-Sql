@@ -1,7 +1,6 @@
 const express = require('express');
 const path = require('path');
 const multer = require('multer');
-// const nanoid = require('nanoid');
 const uniqId = require('uniqid')
 const config = require('../config');
 const mysqlDb = require('../mysqlDb');
